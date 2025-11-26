@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES2024",
+        "module": "ESNext",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": ["ES2024", "dom"],
+        "rootDir": "./"
+    },
+    "ts-node": {
+        "esm": true,
+        "experimentalSpecifierResolution": "node"
+    },
+    "include": ["./**/*.ts"],
+    "exclude": ["node_modules"]
+}

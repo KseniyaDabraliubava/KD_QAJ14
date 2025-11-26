@@ -1,0 +1,33 @@
+{
+    "name": "test_framework",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test_ts": "mocha --config ./config/mocharc_ts.json",
+        "test_ts_fp": "mocha --config ./config/mocharc_ts_fp.json",
+        "pret": "npx prettier --write .",
+        "test": "mocha --config ./config/.mocharc",
+        "jest": "npx jest --config ./config/jest.config.js",
+        "api": "npx jest --config ./config/api.config.js"
+    },
+    "author": "anton shautsou",
+    "license": "ISC",
+    "description": "A simple test framework",
+    "devDependencies": {
+        "@types/chai": "^5.2.3",
+        "@types/jest": "^30.0.0",
+        "@types/mocha": "^10.0.10",
+        "@types/node": "^24.10.1",
+        "@types/superagent": "^8.1.9",
+        "chai": "^6.2.1",
+        "jest": "^30.2.0",
+        "moch": "^0.0.1",
+        "mocha": "^11.7.5",
+        "prettier": "^3.6.2",
+        "superagent": "^10.2.3",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.20.0",
+        "typescript": "^5.8.3"
+    }
+}
