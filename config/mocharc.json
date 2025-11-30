@@ -1,0 +1,8 @@
+{
+  "extension": ["ts"],
+  "node-option": [
+    "import=tsx/esm"
+  ],
+  "spec": ["**/testsMocha/**/*.spec.ts"],
+  "timeout": 30000
+}

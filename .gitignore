@@ -2,7 +2,8 @@ node_modules
 dist
 reports
 launch.json
-config
 helper
 test
 test_api
+.DS_Store
+HW17/.DS_Store

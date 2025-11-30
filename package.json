@@ -7,8 +7,8 @@
         "test_ts": "mocha --config ./config/mocharc_ts.json",
         "test_ts_fp": "mocha --config ./config/mocharc_ts_fp.json",
         "pret": "npx prettier --write .",
-        "test": "mocha --config ./config/.mocharc",
-        "jest": "npx jest --config ./config/jest.config.js",
+        "test": "mocha --config ./config/mocharc.json",
+        "jest": "npx jest --config ./jest.config.js",
         "api": "npx jest --config ./config/api.config.js"
     },
     "author": "anton shautsou",
@@ -26,8 +26,9 @@
         "mocha": "^11.7.5",
         "prettier": "^3.6.2",
         "superagent": "^10.2.3",
+        "ts-jest": "^29.4.5",
         "ts-node": "^10.9.2",
         "tsx": "^4.20.0",
-        "typescript": "^5.8.3"
+        "typescript": "^5.9.3"
     }
 }
