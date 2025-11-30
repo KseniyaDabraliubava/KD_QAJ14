@@ -1,0 +1,20 @@
+[
+    {
+        "username": "SpokCat",
+        "name": "Spok",
+        "last_name": "Spokovich",
+        "email": "spok@gmail.com"
+    },
+    {
+        "username": "Whiskas",
+        "name": null,
+        "last_name": null,
+        "email": "murka@gmail.com"
+    },
+    {
+        "username": "snow@gmail.com",
+        "name": "Jhon",
+        "last_name": "Snow",
+        "email": "snow@gmail.com"
+    }
+]
