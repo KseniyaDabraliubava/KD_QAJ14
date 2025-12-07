@@ -9,13 +9,16 @@
         "pret": "npx prettier --write .",
         "test": "mocha --config ./config/mocharc.json",
         "jest": "npx jest --config ./jest.config.js",
-        "api": "npx jest --config ./config/api.config.js"
+        "api": "npx jest --config ./config/api.config.js",
+        "cucumber": "npx cucumber-js --config ./config/cucumber.json"
     },
     "author": "anton shautsou",
     "license": "ISC",
     "description": "A simple test framework",
     "devDependencies": {
+        "@cucumber/cucumber": "^12.3.0",
         "@types/chai": "^5.2.3",
+        "@types/cucumber": "^6.0.1",
         "@types/jest": "^30.0.0",
         "@types/mocha": "^10.0.10",
         "@types/node": "^24.10.1",

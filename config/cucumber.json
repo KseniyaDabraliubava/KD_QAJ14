@@ -1,0 +1,13 @@
+{
+    "default": {
+        "loader": ["ts-node/esm"],
+        "import": ["HW19/steps/**/*.ts"],
+        "format": ["progress-bar", "html:reports/cucumber-report.html"],
+        "paths": ["HW19/features/**/*.feature"],
+        "publishQuiet": true,
+        "formatOptions": {
+            "colorsEnabled": true,
+            "module": "commonjs"
+        }
+    }
+}

@@ -9,8 +9,9 @@ export default {
     transform: {
         '^.+\\.ts$': 'ts-jest' // <- трансформация TS файлов
     },
-    testMatch: ['**/testsJest/**/*.spec.ts'], // <- пути к тестовым файлам
+    //testMatch: ['**/tests_api/**/*.spec.ts'], // <- пути к тестовым файлам
     //testMatch: ["**/test/**/*.spec.ts", "**/test_api/**/*.spec.ts", "**/testsJest/**/*.spec.ts"], // <- пути к тестовым файлам
+    testMatch: ['**/tests_rock/**/*.spec.ts'], // <- пути к тестовым файлам
     moduleFileExtensions: ['ts', 'js', 'json', 'node'],
     extensionsToTreatAsEsm: ['.ts']
 };
